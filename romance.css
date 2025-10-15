@@ -1,0 +1,724 @@
+#colorChange {
+            display: none;
+}
+.q1f-c-button {
+        display: inline-block;
+        cursor: pointer;
+        padding: 1rem 2.5rem;
+        border-radius: 0.75rem;
+        font-weight: 600;
+        color: white;
+        transition: background-color 0.3s ease, transform 0.1s ease;
+        user-select: none; 
+        background-color: blue;
+}
+
+.q1f-c-button:hover {
+        opacity: 0.9;
+}
+
+.q1f-c-button:active {
+        transform: scale(0.98);
+}
+
+#colorChange:checked + .q1f-c-button {
+        background-color: red;
+        animation: pulse 1s infinite alternate;
+        }
+        
+        #colorChange:not(:checked) + .q1f-c-button {
+            animation: none;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.03); }
+        }
+
+#colorChange2 {
+            display: none;
+}
+.q2f-c-button {
+        display: inline-block;
+        cursor: pointer;
+        padding: 1rem 2.5rem;
+        border-radius: 0.75rem;
+        font-weight: 600;
+        color: white;
+        transition: background-color 0.3s ease, transform 0.1s ease;
+        user-select: none; 
+        background-color: blue;
+}
+
+.q2f-c-button:hover {
+        opacity: 0.9;
+}
+
+.q2f-c-button:active {
+        transform: scale(0.98);
+}
+
+#colorChange2:checked + .q2f-c-button {
+        background-color: red;
+        animation: pulse 1s infinite alternate;
+        }
+        
+        #colorChange2:not(:checked) + .q2f-c-button {
+            animation: none;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.03); }
+        }
+#colorChange3 {
+            display: none;
+}
+.q3f-c-button {
+        display: inline-block;
+        cursor: pointer;
+        padding: 1rem 2.5rem;
+        border-radius: 0.75rem;
+        font-weight: 600;
+        color: white;
+        transition: background-color 0.3s ease, transform 0.1s ease;
+        user-select: none; 
+        background-color: blue;
+}
+
+.q3f-c-button:hover {
+        opacity: 0.9;
+}
+
+.q3f-c-button:active {
+        transform: scale(0.98);
+}
+
+#colorChange3:checked + .q3f-c-button {
+        background-color: red;
+        animation: pulse 1s infinite alternate;
+        }
+        
+        #colorChange3:not(:checked) + .q3f-c-button {
+            animation: none;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.03); }
+        }
+#colorChange4 {
+            display: none;
+}
+.q4f-c-button {
+        display: inline-block;
+        cursor: pointer;
+        padding: 1rem 2.5rem;
+        border-radius: 0.75rem;
+        font-weight: 600;
+        color: white;
+        transition: background-color 0.3s ease, transform 0.1s ease;
+        user-select: none; 
+        background-color: blue;
+}
+
+.q4f-c-button:hover {
+        opacity: 0.9;
+}
+
+.q4f-c-button:active {
+        transform: scale(0.98);
+}
+
+#colorChange4:checked + .q4f-c-button {
+        background-color: rgb(0, 255, 47);
+        animation: pulse 1s infinite alternate;
+        }
+        
+        #colorChange4:not(:checked) + .q4f-c-button {
+            animation: none;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.03); }
+        }
+#colorChange6 {
+            display: none;
+}
+.q2t-c-button {
+        display: inline-block;
+        cursor: pointer;
+        padding: 1rem 2.5rem;
+        border-radius: 0.75rem;
+        font-weight: 600;
+        color: white;
+        transition: background-color 0.3s ease, transform 0.1s ease;
+        user-select: none; 
+        background-color: blue;
+}
+
+.q2t-c-button:hover {
+        opacity: 0.9;
+}
+
+.q2t-c-button:active {
+        transform: scale(0.98);
+}
+
+#colorChange6:checked + .q2t-c-button {
+        background-color: rgb(0, 255, 47);
+        animation: pulse 1s infinite alternate;
+        }
+        
+        #colorChange6:not(:checked) + .q2t-c-button {
+            animation: none;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.03); }
+        }
+#colorChange5 {
+            display: none;
+}
+.q5f-c-button {
+        display: inline-block;
+        cursor: pointer;
+        padding: 1rem 2.5rem;
+        border-radius: 0.75rem;
+        font-weight: 600;
+        color: white;
+        transition: background-color 0.3s ease, transform 0.1s ease;
+        user-select: none; 
+        background-color: blue;
+}
+
+.q5f-c-button:hover {
+        opacity: 0.9;
+}
+
+.q5f-c-button:active {
+        transform: scale(0.98);
+}
+
+#colorChange5:checked + .q5f-c-button {
+        background-color: red;
+        animation: pulse 1s infinite alternate;
+        }
+        
+        #colorChange5:not(:checked) + .q5f-c-button {
+            animation: none;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.03); }
+        }
+        #colorChange7 {
+            display: none;
+}
+.q7f-c-button {
+        display: inline-block;
+        cursor: pointer;
+        padding: 1rem 2.5rem;
+        border-radius: 0.75rem;
+        font-weight: 600;
+        color: white;
+        transition: background-color 0.3s ease, transform 0.1s ease;
+        user-select: none; 
+        background-color: blue;
+}
+
+.q7f-c-button:hover {
+        opacity: 0.9;
+}
+
+.q7f-c-button:active {
+        transform: scale(0.98);
+}
+
+#colorChange7:checked + .q7f-c-button {
+        background-color: red;
+        animation: pulse 1s infinite alternate;
+        }
+        
+        #colorChange7:not(:checked) + .q7f-c-button {
+            animation: none;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.03); }
+        }
+        #colorChange8 {
+            display: none;
+}
+.q8f-c-button {
+        display: inline-block;
+        cursor: pointer;
+        padding: 1rem 2.5rem;
+        border-radius: 0.75rem;
+        font-weight: 600;
+        color: white;
+        transition: background-color 0.3s ease, transform 0.1s ease;
+        user-select: none; 
+        background-color: blue;
+}
+
+.q8f-c-button:hover {
+        opacity: 0.9;
+}
+
+.q8f-c-button:active {
+        transform: scale(0.98);
+}
+
+#colorChange8:checked + .q8f-c-button {
+        background-color: red;
+        animation: pulse 1s infinite alternate;
+        }
+        
+        #colorChange8:not(:checked) + .q8f-c-button {
+            animation: none;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.03); }
+        }
+#colorChange9 {
+            display: none;
+}
+.q9f-c-button {
+        display: inline-block;
+        cursor: pointer;
+        padding: 1rem 2.5rem;
+        border-radius: 0.75rem;
+        font-weight: 600;
+        color: white;
+        transition: background-color 0.3s ease, transform 0.1s ease;
+        user-select: none; 
+        background-color: blue;
+}
+
+.q9f-c-button:hover {
+        opacity: 0.9;
+}
+
+.q9f-c-button:active {
+        transform: scale(0.98);
+}
+
+#colorChange9:checked + .q9f-c-button {
+        background-color: red;
+        animation: pulse 1s infinite alternate;
+        }
+        
+        #colorChange5:not(:checked) + .q9f-c-button {
+            animation: none;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.03); }
+        }
+        #colorChange10 {
+            display: none;
+}
+.q10f-c-button {
+        display: inline-block;
+        cursor: pointer;
+        padding: 1rem 2.5rem;
+        border-radius: 0.75rem;
+        font-weight: 600;
+        color: white;
+        transition: background-color 0.3s ease, transform 0.1s ease;
+        user-select: none; 
+        background-color: blue;
+}
+
+.q10f-c-button:hover {
+        opacity: 0.9;
+}
+
+.q10f-c-button:active {
+        transform: scale(0.98);
+}
+
+#colorChange10:checked + .q10f-c-button {
+        background-color: red;
+        animation: pulse 1s infinite alternate;
+        }
+        
+        #colorChange10:not(:checked) + .q10f-c-button {
+            animation: none;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.03); }
+        }
+        #colorChange11 {
+            display: none;
+}
+.q11f-c-button {
+        display: inline-block;
+        cursor: pointer;
+        padding: 1rem 2.5rem;
+        border-radius: 0.75rem;
+        font-weight: 600;
+        color: white;
+        transition: background-color 0.3s ease, transform 0.1s ease;
+        user-select: none; 
+        background-color: blue;
+}
+
+.q11f-c-button:hover {
+        opacity: 0.9;
+}
+
+.q11f-c-button:active {
+        transform: scale(0.98);
+}
+
+#colorChange11:checked + .q11f-c-button {
+        background-color: rgb(0, 255, 0);
+        animation: pulse 1s infinite alternate;
+        }
+        
+        #colorChange11:not(:checked) + .q11f-c-button {
+            animation: none;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.03); }
+        }
+        #colorChange12 {
+            display: none;
+}
+.q12f-c-button {
+        display: inline-block;
+        cursor: pointer;
+        padding: 1rem 2.5rem;
+        border-radius: 0.75rem;
+        font-weight: 600;
+        color: white;
+        transition: background-color 0.3s ease, transform 0.1s ease;
+        user-select: none; 
+        background-color: blue;
+}
+
+.q12f-c-button:hover {
+        opacity: 0.9;
+}
+
+.q12f-c-button:active {
+        transform: scale(0.98);
+}
+
+#colorChange12:checked + .q12f-c-button {
+        background-color: red;
+        animation: pulse 1s infinite alternate;
+        }
+        
+        #colorChange12:not(:checked) + .q12f-c-button {
+            animation: none;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.03); }
+        }
+        #colorChange13 {
+            display: none;
+}
+.q13f-c-button {
+        display: inline-block;
+        cursor: pointer;
+        padding: 1rem 2.5rem;
+        border-radius: 0.75rem;
+        font-weight: 600;
+        color: white;
+        transition: background-color 0.3s ease, transform 0.1s ease;
+        user-select: none; 
+        background-color: blue;
+}
+
+.q13f-c-button:hover {
+        opacity: 0.9;
+}
+
+.q13f-c-button:active {
+        transform: scale(0.98);
+}
+
+#colorChange13:checked + .q13f-c-button {
+        background-color: rgb(0, 255, 34);
+        animation: pulse 1s infinite alternate;
+        }
+        
+        #colorChange13:not(:checked) + .q13f-c-button {
+            animation: none;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.03); }
+        }
+        #colorChange14 {
+            display: none;
+}
+.q14f-c-button {
+        display: inline-block;
+        cursor: pointer;
+        padding: 1rem 2.5rem;
+        border-radius: 0.75rem;
+        font-weight: 600;
+        color: white;
+        transition: background-color 0.3s ease, transform 0.1s ease;
+        user-select: none; 
+        background-color: blue;
+}
+
+.q14f-c-button:hover {
+        opacity: 0.9;
+}
+
+.q14f-c-button:active {
+        transform: scale(0.98);
+}
+
+#colorChange14:checked + .q14f-c-button {
+        background-color: red;
+        animation: pulse 1s infinite alternate;
+        }
+        
+        #colorChange14:not(:checked) + .q14f-c-button {
+            animation: none;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.03); }
+        }
+        #colorChange15 {
+            display: none;
+}
+.q15f-c-button {
+        display: inline-block;
+        cursor: pointer;
+        padding: 1rem 2.5rem;
+        border-radius: 0.75rem;
+        font-weight: 600;
+        color: white;
+        transition: background-color 0.3s ease, transform 0.1s ease;
+        user-select: none; 
+        background-color: blue;
+}
+
+.q15f-c-button:hover {
+        opacity: 0.9;
+}
+
+.q15f-c-button:active {
+        transform: scale(0.98);
+}
+
+#colorChange15:checked + .q15f-c-button {
+        background-color: red;
+        animation: pulse 1s infinite alternate;
+        }
+        
+        #colorChange15:not(:checked) + .q15f-c-button {
+            animation: none;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.03); }
+        }
+        #colorChange16 {
+            display: none;
+}
+.q16f-c-button {
+        display: inline-block;
+        cursor: pointer;
+        padding: 1rem 2.5rem;
+        border-radius: 0.75rem;
+        font-weight: 600;
+        color: white;
+        transition: background-color 0.3s ease, transform 0.1s ease;
+        user-select: none; 
+        background-color: blue;
+}
+
+.q16f-c-button:hover {
+        opacity: 0.9;
+}
+
+.q16f-c-button:active {
+        transform: scale(0.98);
+}
+
+#colorChange16:checked + .q16f-c-button {
+        background-color: red;
+        animation: pulse 1s infinite alternate;
+        }
+        
+        #colorChange16:not(:checked) + .q16f-c-button {
+            animation: none;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.03); }
+        }
+        #colorChange17 {
+            display: none;
+}
+.q17f-c-button {
+        display: inline-block;
+        cursor: pointer;
+        padding: 1rem 2.5rem;
+        border-radius: 0.75rem;
+        font-weight: 600;
+        color: white;
+        transition: background-color 0.3s ease, transform 0.1s ease;
+        user-select: none; 
+        background-color: blue;
+}
+
+.q17f-c-button:hover {
+        opacity: 0.9;
+}
+
+.q17f-c-button:active {
+        transform: scale(0.98);
+}
+
+#colorChange17:checked + .q17f-c-button {
+        background-color: rgb(0, 255, 38);
+        animation: pulse 1s infinite alternate;
+        }
+        
+        #colorChange17:not(:checked) + .q17f-c-button {
+            animation: none;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.03); }
+        }
+        #colorChange18 {
+            display: none;
+}
+.q18f-c-button {
+        display: inline-block;
+        cursor: pointer;
+        padding: 1rem 2.5rem;
+        border-radius: 0.75rem;
+        font-weight: 600;
+        color: white;
+        transition: background-color 0.3s ease, transform 0.1s ease;
+        user-select: none; 
+        background-color: blue;
+}
+
+.q18f-c-button:hover {
+        opacity: 0.9;
+}
+
+.q18f-c-button:active {
+        transform: scale(0.98);
+}
+
+#colorChange18:checked + .q18f-c-button {
+        background-color: red;
+        animation: pulse 1s infinite alternate;
+        }
+        
+        #colorChange18:not(:checked) + .q18f-c-button {
+            animation: none;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.03); }
+        }
+        #colorChange19 {
+            display: none;
+}
+.q19f-c-button {
+        display: inline-block;
+        cursor: pointer;
+        padding: 1rem 2.5rem;
+        border-radius: 0.75rem;
+        font-weight: 600;
+        color: white;
+        transition: background-color 0.3s ease, transform 0.1s ease;
+        user-select: none; 
+        background-color: blue;
+}
+
+.q19f-c-button:hover {
+        opacity: 0.9;
+}
+
+.q19f-c-button:active {
+        transform: scale(0.98);
+}
+
+#colorChange19:checked + .q19f-c-button {
+        background-color: red;
+        animation: pulse 1s infinite alternate;
+        }
+        
+        #colorChange19:not(:checked) + .q19f-c-button {
+            animation: none;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.03); }
+        }
+        #colorChange20 {
+            display: none;
+}
+.q20f-c-button {
+        display: inline-block;
+        cursor: pointer;
+        padding: 1rem 2.5rem;
+        border-radius: 0.75rem;
+        font-weight: 600;
+        color: white;
+        transition: background-color 0.3s ease, transform 0.1s ease;
+        user-select: none; 
+        background-color: blue;
+}
+
+.q20f-c-button:hover {
+        opacity: 0.9;
+}
+
+.q20f-c-button:active {
+        transform: scale(0.98);
+}
+
+#colorChange20:checked + .q20f-c-button {
+        background-color: red;
+        animation: pulse 1s infinite alternate;
+        }
+        
+        #colorChange20:not(:checked) + .q20f-c-button {
+            animation: none;
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            100% { transform: scale(1.03); }
+        }
+       
+
+ 
